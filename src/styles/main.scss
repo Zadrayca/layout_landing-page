@@ -1,3 +1,56 @@
+html {
+  font-family: "Poppins", sans-serif;
+  color: #FFFFFF;
+  font-size: 140%;
+  line-height: 16px;
+}
+
 body {
   margin: 0;
+}
+
+.header {
+  box-sizing: border-box;
+  padding: 24px 20px 88px;
+  height: 100vh;
+  background-image: url(../images/header-bg-mobile.png);
+  background-size: cover;
+  background-position: right;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: -1.5px;
+}
+
+.header__icons {
+  display: flex;
+  gap: 24px;
+}
+
+.icon {
+  display: block;
+  height: 24px;
+  width: 24px;
+}
+
+.icon--phone {
+  background-image: url(../images/icons/icon-phone24.png);
+}
+
+.icon--menu {
+  background-image: url(../images/icons/icon-menu24.png);
 }
